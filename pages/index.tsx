@@ -17,3 +17,10 @@ export default () => (
     </div>
   </div>
 );
+
+export function getStaticProps(context) {
+  console.log(context);
+  return {
+    props: {},
+  };
+}
